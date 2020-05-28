@@ -1,5 +1,5 @@
 {
-  "name": "@jolocom/file-password-store",
+  "name": "@jolocom/sdk-password-store-filesystem",
   "version": "0.1.0",
   "main": "js/index.js",
   "author": "Jolocom",
