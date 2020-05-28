@@ -5,9 +5,9 @@
   "author": "Jolocom",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsc -p .",
+    "build": "rm -rf js && yarn tsc -p .",
     "clean": "rm -rf node_modules",
-    "prepare": "yarn clean && yarn build"
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@jolocom/sdk": "^0.8.0",
