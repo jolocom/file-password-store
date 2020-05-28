@@ -1,0 +1,11 @@
+{
+  "name": "@jolocom/file-password-store",
+  "version": "0.1.0",
+  "main": "js/index.js",
+  "author": "Jolocom",
+  "license": "MIT",
+  "devDependencies": {
+    "@jolocom/sdk": "^0.8.0",
+    "typescript": "^3.9.3"
+  }
+}
