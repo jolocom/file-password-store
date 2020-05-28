@@ -4,6 +4,11 @@
   "main": "js/index.js",
   "author": "Jolocom",
   "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc -p .",
+    "clean": "rm -rf node_modules",
+    "prepare": "yarn clean && yarn build"
+  },
   "devDependencies": {
     "@jolocom/sdk": "^0.8.0",
     "typescript": "^3.9.3"
